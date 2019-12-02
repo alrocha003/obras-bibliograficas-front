@@ -1,7 +1,7 @@
 # obras-bibliograficas-front
 #### Front end do test de obras bibliograficas 
 
-## omo executar
+## Como executar
 Clone o repositório ou faza download do mesmo e descompacte em uma pasta de sua escolha. Acesse o diretório com os arquivos via prompt de comando e com o Angular 8 instalado execute **ng serve** para executar a aplicação.
 
 ## Alterações para execução
