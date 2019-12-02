@@ -6,16 +6,16 @@ import { Observable, throwError } from "rxjs";
   providedIn: "root"
 })
 export class ObrasBibliograficasService {
-  URL_BASE = "https://localhost:5000";
+  URL = "https://localhost:5000";
 
   constructor(private httpClient: HttpClient) {}
 
   public GetAll() {
-    return this.httpClient.get(`${this.URL_BASE}/api/Author`);
+    return this.httpClient.get(`${this.URL}/api/Author`);
   }
 
   public Register(param): Observable<{}> {
-    return this.httpClient.post(`${this.URL_BASE}/api/Author`, {
+    return this.httpClient.post(`${this.URL}/api/Author`, {
       Id: 0,
       Name: param.name
     });
